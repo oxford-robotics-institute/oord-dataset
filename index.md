@@ -3,10 +3,12 @@ layout: home
 title: Home
 ---
 
+# Citation
+
 Please cite the following paper when using the dataset in your research.
 
 **OORD: The Oxford Offroad Radar Dataset** <br>
-Authors<br>
+Matthew Gadd, Daniele De Martini, Oliver Bartlett, Paul Murcutt, Matt Towlson, Matthew Widojo, Valentina Musat, Luke Robinson, Efimia Panagiotaki, Georgi Pramatarov, Marc Alexander Kuhn, Paul Newman, and Lars Kunze<br>
 {% include bibtex.html text="
 @inproceedings{gadd2023oord,
 title={{OORD: The Oxford Offroad Radar Dataset}},
