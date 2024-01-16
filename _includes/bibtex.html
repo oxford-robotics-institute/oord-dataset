@@ -1,0 +1,29 @@
+{% capture bibtex_id %} {{include.text | strip_newlines | truncate 40 | escape}} {% endcapture %}<a class="bibtex-button hidden" onclick="show_hide(this, '{{bibtex_id}}');">[Bibtex]</a>
+<div id="{{bibtex_id}}" class="collapsible-content">
+  <pre id="bibtex">{{include.text | escape}}</pre>
+</div>
+
+<style>
+  bibtex{
+    margin-left:30px;
+    background-color: #F9F8FF
+  }
+  .collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+    display:block;
+  }
+</style>
+
+<script type="text/javascript">
+  function show_hide(button, id) {  
+    var elem = document.getElementById(id)
+    var style = window.getComputedStyle(elem)
+    if (style.maxHeight == "0px"){
+      elem.style.maxHeight = "1000px";
+    } else{
+      elem.style.maxHeight = "0px";
+    }
+  }
+</script>
