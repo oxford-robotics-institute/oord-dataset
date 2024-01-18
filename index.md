@@ -43,19 +43,19 @@ table tr:nth-child(even) {
 <td markdown="span">![]({{ site.baseurl }}/images/gps/hydro.png)</td>
 </tr>
 <tr>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-25-12-01-20</a></td>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-27-14-37-20</a></td>
+<td markdown="span">**2021-11-25-12-01-20** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
+<td markdown="span">**2021-11-27-14-37-20** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
 </tr>
 <tr>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-25-12-31-19</a></td>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-27-15-24-02</a></td>
+<td markdown="span">**2021-11-25-12-31-19** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
+<td markdown="span">**2021-11-27-15-24-02** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
 </tr>
 <tr>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-26-15-35-34</a></td>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-27-16-03-26</a></td>
+<td markdown="span">**2021-11-26-15-35-34** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
+<td markdown="span">**2021-11-27-16-03-26** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
 </tr>
 <tr>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-26-16-12-01</a></td>
+<td markdown="span">**2021-11-26-16-12-01** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
 </tr>
 <tr>
 <td markdown="span" style="text-align: center; vertical-align: middle;">**Maree** </td>
@@ -66,12 +66,12 @@ table tr:nth-child(even) {
 <td markdown="span">![]({{ site.baseurl }}/images/gps/twolochs.png)</td>
 </tr>
 <tr>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-28-15-54-55</a></td>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-29-11-40-37</a></td>
+<td markdown="span">**2021-11-28-15-54-55** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
+<td markdown="span">**2021-11-29-11-40-37** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
 </tr>
 <tr>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-28-16-43-37</a></td>
-<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-29-12-19-16</a></td>
+<td markdown="span">**2021-11-28-16-43-37** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
+<td markdown="span">**2021-11-29-12-19-16** (<a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">radar</a>, <a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">gps</a>)</td>
 </tr>
 </tbody>
 </table>
