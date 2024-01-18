@@ -40,20 +40,43 @@ table tr:nth-child(even) {
 </colgroup>
 <tbody>
 <tr>
+<td markdown="span" style="text-align: center; vertical-align: middle;">**Bellmouth** </td>
+<td markdown="span" style="text-align: center; vertical-align: middle;">**Hydro** </td>
+</tr>
+<tr>
 <td markdown="span">![]({{ site.baseurl }}/images/gps/bellmouth.png)</td>
 <td markdown="span">![]({{ site.baseurl }}/images/gps/hydro.png)</td>
 </tr>
 <tr>
-<td markdown="span">**Bellmouth** </td>
-<td markdown="span">**Hydro** </td>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-25-12-01-20</a></td>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-27-14-37-20</a></td>
+</tr>
+<tr>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-25-12-31-19</a></td>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-27-15-24-02</a></td>
+</tr>
+<tr>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-26-15-35-34</a></td>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-27-16-03-26</a></td>
+</tr>
+<tr>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-26-16-12-01</a></td>
+</tr>
+<tr>
+<td markdown="span" style="text-align: center; vertical-align: middle;">**Maree** </td>
+<td markdown="span" style="text-align: center; vertical-align: middle;">**Two Lochs** </td>
 </tr>
 <tr>
 <td markdown="span">![]({{ site.baseurl }}/images/gps/maree.png)</td>
 <td markdown="span">![]({{ site.baseurl }}/images/gps/twolochs.png)</td>
 </tr>
 <tr>
-<td markdown="span">**Maree** </td>
-<td markdown="span">**Two Lochs** </td>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-28-15-54-55</a></td>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-29-11-40-37</a></td>
+</tr>
+<tr>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-28-16-43-37</a></td>
+<td markdown="span" onClick="document.location.href='https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link';"><a href="https://drive.google.com/file/d/1v4qe811pvHe_xjFZUM4yXFe2uFJOVbPT/view?usp=drive_link" class="myButton">2021-11-29-12-19-16</a></td>
 </tr>
 </tbody>
 </table>
