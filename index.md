@@ -3,6 +3,9 @@ layout: home
 title: Home
 ---
 
+We release data collected in the rugged Scottish highlands in extreme weather.
+The radar data we offer to the community are accompanied by GPS/INS reference - to further stimulate research in radar place recognition
+
 # Citation
 
 Please cite the following paper when using the dataset in your research.
@@ -17,6 +20,11 @@ author={Gadd, Matthew  and De Martini, Daniele and Bartlett, Oliver and Murcutt,
 " %}
 
 # Data
+
+We release data from four areas of the Ardverikie Estate.
+These feature distinct landscape (therefore typical radar returns) as well as driving conditions.
+
+In total we drive a diverse set of four routes over 11 forays, totalling approximately 154km of rugged driving.
 
 <style>
 table td {
