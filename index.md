@@ -82,7 +82,7 @@ table tr:nth-child(even) {
 A software development kit is available at [https://github.com/mttgdd/oord-dataset](https://github.com/mttgdd/oord-dataset).
 This allows quick setup of place recognition experiments and ground truth performance evaluation, as below.
 
-We start by specifying the configuration of our experiment in `config/radvlad.yaml`.
+We start by specifying the configuration of our experiment in `config/alexnet.yaml`.
 
 ```yaml
 tar_dir: /Volumes/saxdata2/data
@@ -95,42 +95,39 @@ device: cuda:0
 downsample: 5
 pos_gps: 25.0
 neg_gps: 50.0
-gps_match_tolerance: 25.0
-channels: 1
 
 min_bin: 60
 max_bin: 3768
-cartesian: False
-num_azis: 256
-num_bins: 256
-fft: True
+cartesian: True
+cart_res: 1.2717
+cart_pw: 224
+channels: 3
+fft: False
 
-num_clusters: 64
+gps_match_tolerance: 25.0
 ```
 
-We then write a simple wrapper `jobs/test_radvlad.py` around a common test routine in `src/test.py`
-
+We then write a simple wrapper `jobs/test_alexnet.py` around a common test routine in `src/test.py`
 
 ```python
 from config.config import get_cfg_impl
-from src.raplace import SinoFFT, RaPlace
 from src.test import test
 
-test(get_cfg_impl('config/raplace.yaml'), 
-     SinoFFT(), RaPlace(), 'raplace')
+import torch
+
+cfg = get_cfg_impl('config/pretrained_networks.yaml')
+
+net = torch.hub.load('pytorch/vision:v0.10.0', 'alexnet', pretrained=True)
+net.eval()
+
+test(cfg, net, None, 'alexnet')
 ```
 
-Running the job as below:
-
-```bash
-python -m jobs.test_radvlad
-```
-
-We can then visualise the embedding distance matrix and ground truth matrix:
+Running the job with `python -m jobs.test_alexnet`, we can then visualise the embedding distance matrix and ground truth matrix:
 
 ```bash
 python -m tex.figs_gps
-python -m tex.figs_gt
+python -m tex.figs_diff
 ```
 
 This gives us the following example output:
@@ -150,14 +147,16 @@ This gives us the following example output:
 
 [comment]: # TODO: get diff png
 
-The recall@n metrics are run as part of the call to `src/test.py` above and are written to e.g. `~/experiments/oord/test/radvlad_2021-11-25-12-31-19_2021-11-25-12-01-20.csv` with the following example contents.
+The recall@n metrics are run as part of the call to `src/test.py` above and are written to e.g. `/home/mattgadd/experiments/oord/test/alexnet_2021-11-25-12-31-19_2021-11-25-12-01-20.csv` with the following example contents.
 
 ```text
 ,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49
-0,0.9887244538407329,0.9936575052854123,0.9957716701902748,0.9964763918252291,0.9978858350951374,0.9985905567300916,0.9985905567300916,0.9985905567300916,0.9992952783650458,0.9992952783650458,0.9992952783650458,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+0,0.7491190979563073,0.8463706835799859,0.8787878787878788,0.9062720225510923,0.9238900634249472,0.9330514446793516,0.9400986610288936,0.9443269908386187,0.9471458773784355,0.952783650458069,0.959830866807611,0.9626497533474278,0.9640591966173362,0.9654686398872445,0.9704016913319239,0.9760394644115574,0.9774489076814659,0.9795630725863284,0.9802677942212826,0.9809725158562368,0.9830866807610994,0.9830866807610994,0.9859055673009162,0.9859055673009162,0.9859055673009162,0.9866102889358703,0.9880197322057788,0.9880197322057788,0.9880197322057788,0.9894291754756871,0.9894291754756871,0.9894291754756871,0.9908386187455955,0.9908386187455955,0.9908386187455955,0.9908386187455955,0.9908386187455955,0.9908386187455955,0.9915433403805497,0.9915433403805497,0.9915433403805497,0.9922480620155039,0.992952783650458,0.9943622269203665,0.9943622269203665,0.9943622269203665,0.9950669485553206,0.9950669485553206,0.9950669485553206
 ```
 
-Reading this, we have 98.87% recall@1 for this method.
+Reading this, we have 74.91% recall@1 for alexnet.
+
+# Trained model checkpoints
 
 # Citation
 
