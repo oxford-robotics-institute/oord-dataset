@@ -123,14 +123,13 @@ net.eval()
 test(cfg, net, None, 'alexnet')
 ```
 
-Running the job with `python -m jobs.test_alexnet`, we can then visualise the embedding distance matrix and ground truth matrix:
+Running the job with `python -m jobs.test_alexnet`, the embedding distance matrix are exported as pngs and we can also generate all ground truth matrices as pngs with:
 
 ```bash
 python -m tex.figs_gps
-python -m tex.figs_diff
 ```
 
-This gives us the following example output:
+This gives us the following example outputs at `/home/mattgadd/experiments/oord/test/alexnet_2021-11-25-12-31-19_2021-11-25-12-01-20.png` and `/home/mattgadd/experiments/oord/test/2021-11-25-12-31-19_2021-11-25-12-01-20-positives.png`:
 
 <table cellspacing="0" cellpadding="0" style="margin-top: 30px;">
 <colgroup>
@@ -139,8 +138,8 @@ This gives us the following example output:
 </colgroup>
 <tbody>
 <tr>
-<td markdown="span">![]({{ site.baseurl }}/images/example/positives.png)</td>
-<td markdown="span">![]({{ site.baseurl }}/images/example/positives.png)</td>
+<td markdown="span">![]({{ site.baseurl }}/images/example/alexnet_2021-11-25-12-31-19_2021-11-25-12-01-20.png)</td>
+<td markdown="span">![]({{ site.baseurl }}/images/example/2021-11-25-12-31-19_2021-11-25-12-01-20-positives.png)</td>
 </tr>
 </tbody>
 </table>
