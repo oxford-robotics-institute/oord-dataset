@@ -138,8 +138,8 @@ This gives us the following example outputs at `/home/mattgadd/experiments/oord/
 </colgroup>
 <tbody>
 <tr>
-<td markdown="span">![]({{ site.baseurl }}/images/example/alexnet_2021-11-25-12-31-19_2021-11-25-12-01-20.png)</td>
-<td markdown="span">![]({{ site.baseurl }}/images/example/2021-11-25-12-31-19_2021-11-25-12-01-20-positives.png)</td>
+<td markdown="span">![]({{ site.baseurl }}/images/example/diff.png)</td>
+<td markdown="span">![]({{ site.baseurl }}/images/example/positives.png)</td>
 </tr>
 </tbody>
 </table>
