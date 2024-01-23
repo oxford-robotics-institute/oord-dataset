@@ -157,6 +157,20 @@ Reading this, we have 74.91% recall@1 for alexnet.
 
 # Trained model checkpoints
 
+For the neural network approaches explored in the paper, we release saved checkpoints at [huggingface.co/mttgdd/oord-models](huggingface.co/mttgdd/oord-models). Example use is as below:
+
+```python
+from src.resnet18_netvlad import Net
+
+from huggingface_hub import hf_hub_download
+import torch
+
+net = Net()
+weights = hf_hub_download(
+      repo_id="mttgdd/oord_models", filename="resnet18_netvlad")
+net.load_state_dict(torch.load(weights))
+```
+
 # Citation
 
 Please cite the following paper when using the dataset in your research.
