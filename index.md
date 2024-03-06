@@ -176,7 +176,7 @@ net.load_state_dict(torch.load(weights))
 Please cite the following paper when using the dataset in your research.
 
 **OORD: The Oxford Offroad Radar Dataset** <br>
-Matthew Gadd, Daniele De Martini, Oliver Bartlett, Paul Murcutt, Matt Towlson, Matthew Widojo, Valentina Musat, Luke Robinson, Efimia Panagiotaki, Georgi Pramatarov, Marc Alexander Kuhn, Paul Newman, and Lars Kunze<br>
+M. Gadd, D. De Martini, O. Bartlett, P. Murcutt, M. Towlson, M. Widojo, V. Muşat, L. Robinson, E. Panagiotaki, G. Pramatarov, M. A. Kühn, L. Marchegiani, P. Newman, L. Kunze<br>
 <i>arXiv preprint arXiv:2403.02845</i>, 2024 <br>
 {% include bibtex.html text="
 @article{gadd2024oord,
