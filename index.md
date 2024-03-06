@@ -173,7 +173,7 @@ net.load_state_dict(torch.load(weights))
 
 # Citation
 
-Please cite the following paper when using the dataset in your research.
+Please cite the following <a href="https://arxiv.org/pdf/2403.02845.pdf">paper</a> when using the dataset in your research.
 
 **OORD: The Oxford Offroad Radar Dataset** <br>
 M. Gadd, D. De Martini, O. Bartlett, P. Murcutt, M. Towlson, M. Widojo, V. Muşat, L. Robinson, E. Panagiotaki, G. Pramatarov, M. A. Kühn, L. Marchegiani, P. Newman, L. Kunze<br>
