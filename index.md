@@ -79,7 +79,7 @@ table tr:nth-child(even) {
 
 # Software Development Kit
 
-A software development kit is available at [https://github.com/mttgdd/oord-dataset](https://github.com/mttgdd/oord-dataset).
+A software development kit is available at <a href="https://github.com/mttgdd/oord-dataset">github.com/mttgdd/oord-dataset</a>.
 This allows quick setup of place recognition experiments and ground truth performance evaluation, as below.
 
 We start by specifying the configuration of our experiment in `config/alexnet.yaml`.
