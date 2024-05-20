@@ -115,12 +115,12 @@ from src.test import test
 
 import torch
 
-cfg = get_cfg_impl('config/pretrained_networks.yaml')
+cfg = get_cfg_impl('config/alexnet.yaml')
 
 net = torch.hub.load('pytorch/vision:v0.10.0', 'alexnet', pretrained=True)
 net.eval()
 
-test(cfg, net, None, 'alexnet')
+test(cfg, net, None, 'alexnet', sensor='radar')
 ```
 
 Running the job with `python -m jobs.test_alexnet`, the embedding distance matrix are exported as pngs and we can also generate all ground truth matrices as pngs with:
